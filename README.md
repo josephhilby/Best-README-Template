@@ -24,13 +24,8 @@
     <img src="images/banner.png" alt="Logo" width="100%">
   </a>
 
-  <h1 align="center">Best-README-Template</h3>
-
   <h3 align="center">
     An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     ·
