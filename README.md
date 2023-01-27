@@ -25,7 +25,7 @@
   </a>
 
   <h3 align="center">
-    An awesome README template to jumpstart your projects!
+    My small edits to the Awesome README template found [here](https://github.com/othneildrew/Best-README-Template)!
     <br />
     <a href="https://github.com/<your_repo>/issues">Report Bug</a>
     ·
