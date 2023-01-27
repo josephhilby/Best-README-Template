@@ -41,6 +41,7 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#api-endpoints">API Endpoints</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#built-with">Built With</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -112,6 +113,48 @@ _Below is an example of how you can instruct your audience on installing and set
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+<!-- API Endpoints -->
+## API Endpoints
+
+### GET[^1]
+<details> 
+  <summary> <code>localhost:5001/api/v1/endpoint</code> </summary>
+
+### GET /api/v1/endpoint?q=thing
+
+> Get a list of all things (if no params are passed) OR by selected thing, through params.
+
+**Parameters**
+
+> |          Name | Required |  Type   |  Description     |
+> | -------------:|:--------:|:-------:| ---------------- |
+> |     `q`       |    no    | string  | The thing you want to filter results by.   |
+
+
+**Response**
+
+> ```
+> {
+>     "data": [
+>         {
+>             "id": null,
+>             "type": "thing",
+>             "attributes": {
+>                 "title": "thing",
+>                 "url": "https://www.thing.com/2013/11/thinguri.html",
+>                 "image": "https://thing-images.s3.amazonaws.com..."
+>             }
+>         },
+>         {...},
+>         {...},
+>         {...},
+>         {etc},
+>     ]
+> }
+> ```
+</details>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -132,7 +175,10 @@ See the [open issues](https://github.com/<your_repo>/issues) for a full list of 
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-<img src="images/tech-stack-demo.png" alt="Tech-Stack">
+<br />
+<div align="center">
+<img src="images/tech-stack-demo.png" alt="Tech-Stack" width="70%">
+</div >
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -221,6 +267,8 @@ Use this space to list resources you find helpful and would like to give credit 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+[^1]: Note: Here is a footnote
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
